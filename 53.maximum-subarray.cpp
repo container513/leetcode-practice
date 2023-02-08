@@ -10,6 +10,8 @@ using namespace std;
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
         int tmp = nums[0];
         int ans=tmp;
         for(int i=1;i<nums.size();i++){
